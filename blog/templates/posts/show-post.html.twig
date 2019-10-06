@@ -1,0 +1,17 @@
+{% extends '/base.html.twig' %}
+
+{% block title %}
+  Symfony Blog - {{ post.title }}
+{% endblock %}
+
+{% block stylesheets %}
+  <link  href="{{ asset('css/show-post.css') }}" rel="stylesheet" />
+{% endblock %}
+
+{% block content %}
+  <main>
+    <h2 class="show-post-title">{{ post.title }}</h2>
+    <p class="show-post-text">{{ post.text }}</p>
+    <a class="btn" href="{{ path('home') }}">Go Back</a>
+  </main>
+{% endblock %}

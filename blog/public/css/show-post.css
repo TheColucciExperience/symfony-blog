@@ -1,0 +1,13 @@
+
+.show-post-title {
+  margin-bottom: 3rem;
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: lightblue;
+}
+
+.show-post-text {
+  margin-bottom: 4rem;
+  font-size: 1rem;
+  color: lightblue;
+}

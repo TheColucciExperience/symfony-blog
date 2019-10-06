@@ -1,0 +1,35 @@
+.index-table {
+  width: 100%;
+  text-align: left;
+}
+
+.index-table caption {
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: left;
+  color: lightblue;
+}
+
+.index-table th {
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: lightblue;
+}
+
+.index-table tr {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  margin-bottom: 1.5rem;
+  padding-top: .7rem;
+  padding-bottom: .7rem;
+}
+
+.index-table td { flex: 1; }
+
+.index-table td.post-title {
+  font-weight: 700;
+  color: lightblue;
+}
